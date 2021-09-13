@@ -31,6 +31,6 @@ while True:
         for x in range(int(dice)):
             print((randint(1,int(sides))))
         
-        print("Enter c for options")
+        imp = input("Enter c for options")
         
     print()
