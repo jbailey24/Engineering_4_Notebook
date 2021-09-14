@@ -31,7 +31,7 @@ print("Difference:\t" + doMath(a,b,2))
 print("Product:\t" + doMath(a,b,3))
 print("Quotient:\t" + doMath(a,b,4))
 print("Modulo:\t\t" + doMath(a,b,5))
-print("Modulo:\t\t" + doMath(a,b,6))
-print("Modulo:\t\t" + doMath(a,b,7))
+print("1st Factorial:\t\t" + doMath(a,b,6))
+print("2nd Factorial:\t\t" + doMath(a,b,7))
 
 
