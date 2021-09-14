@@ -1,0 +1,29 @@
+# Python Program 01 - Calculator (ENGR4)
+#Written by Julia Bailry
+#9/14/2021
+
+
+print("Calculator Program")
+a = input("Enter your first number: ")
+b = input("Enter your second number: ")
+
+
+def doMath(a, b, typ):
+    if typ == 1:
+        return str(int(a)+int(b))
+    if typ == 2:
+        return str(int(a)-int(b))
+    if typ == 3:
+        return str(int(a)*int(b))
+    if typ == 4:
+        return str(round((int(a)/int(b)), 2))
+    if typ == 5:
+        return str(int(a)%int(b))
+    
+
+
+print("Sum:\t\t" + doMath(a,b,1))
+print("Difference:\t" + doMath(a,b,2))
+print("Product:\t" + doMath(a,b,3))
+print("Quotient:\t" + doMath(a,b,4))
+print("Modulo:\t\t" + doMath(a,b,5))
