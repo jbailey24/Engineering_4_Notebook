@@ -1,17 +1,17 @@
-# Python Program 01 - Calculator (ENGR4)
+# Python Program 01 - Calculator (ENGR4) (SPICY)
 #Written by Julia Bailry
 #9/14/2021
-
-import math
+    
+import math                                 
 
 print("Calculator Program")
-a = input("Enter your first number: ")
+a = input("Enter your first number: ")      #'input' allows user to enter numbers in the monitor
 b = input("Enter your second number: ")
 
 
-def doMath(a, b, typ):
+def doMath(a, b, typ):                     #created function 'doMath', which takes the user input and returns 1 of 7 euqations
     if typ == 1:
-        return str(int(a)+int(b))
+        return str(int(a)+int(b))          #converts a and b into integers so it can do math, and then converts them back into strings so they can be printed
     if typ == 2:
         return str(int(a)-int(b))
     if typ == 3:
@@ -21,12 +21,12 @@ def doMath(a, b, typ):
     if typ == 5:
         return str(int(a)%int(b))
     if typ == 6:
-        return str(math.factorial(int(a)))
+        return str(math.factorial(int(a)))     #math.factorial will automatically find the factorial of any input, which is a nice shortcut for cleaner code
     if typ == 7:
         return str(math.factorial(int(b)))
 
 
-print("Sum:\t\t" + doMath(a,b,1))
+print("Sum:\t\t" + doMath(a,b,1))       #call all 7 functions sequentially 
 print("Difference:\t" + doMath(a,b,2))
 print("Product:\t" + doMath(a,b,3))
 print("Quotient:\t" + doMath(a,b,4))
