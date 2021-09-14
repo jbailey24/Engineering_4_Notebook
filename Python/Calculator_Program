@@ -3,14 +3,14 @@
 #9/14/2021
 
 
-print("Calculator Program")
-a = input("Enter your first number: ")
+print("Calculator Program")                 
+a = input("Enter your first number: ")      #'input' allows user to enter numbers in the monitor
 b = input("Enter your second number: ")
 
 
-def doMath(a, b, typ):
+def doMath(a, b, typ):                      #created function 'doMath', which takes the user input and returns 1 of 5 euqations
     if typ == 1:
-        return str(int(a)+int(b))
+        return str(int(a)+int(b))           #converts a and b into integers so it can do math, and then converts them back into strings so they can be printed
     if typ == 2:
         return str(int(a)-int(b))
     if typ == 3:
@@ -22,7 +22,7 @@ def doMath(a, b, typ):
     
 
 
-print("Sum:\t\t" + doMath(a,b,1))
+print("Sum:\t\t" + doMath(a,b,1))          #call all 5 functions sequentially 
 print("Difference:\t" + doMath(a,b,2))
 print("Product:\t" + doMath(a,b,3))
 print("Quotient:\t" + doMath(a,b,4))
