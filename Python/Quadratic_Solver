@@ -23,7 +23,7 @@ while True:
             disc = (int(b)**2)-(4*int(a)*int(c))
     
             if disc >= 0:
-                roots = [(-int(b) + sqrt(disc)/(2*int(a)), (-int(b) - disc)/(2*int(a))]
+                roots = [(-int(b) + sqrt(disc)/(2*int(a)), (-int(b) - sqrt(disc))/(2*int(a))]
                 return roots
             else:
                 return "empty"
