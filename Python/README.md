@@ -31,7 +31,7 @@ This assignment was relatively simple, but was definitely helpful because I have
 Your turn! You will be writing a section of readme like this for all subsequent assignments.
 
 ### Evidence 
-
+![Screenshot of code](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8255.jpg?raw=true)
 
 ### Wiring
 
