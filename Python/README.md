@@ -1,7 +1,6 @@
 # Engineering_4_Notebook
 
 ## Table of Contents
-* [Basics](#Basics)
 * [Python_Dice_Roller](#PythonDiceRoller)
 * [Python_Calculator](#Python_Calculator)
 ---
@@ -15,7 +14,7 @@ The purpose of this assignment was to create a program that can automatically ro
 
 ### Evidence 
 
-![Screenshot 2021-09-10 3 18 38 PM](file:///C:/Users/jbailey24/Downloads/IMG_8253.jpg)
+![Screenshot of code](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8253.jpg?raw=true)
 
 ### Wiring
 
