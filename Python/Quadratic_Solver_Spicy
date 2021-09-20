@@ -1,8 +1,7 @@
 # Quadratic Solver
 # Written by Julia Bailey
-# 9/16/2021
-
-from math import sqrt
+# 9/16/21
+import math
 imp = None
 
 print('Quadratic Solver')
@@ -23,20 +22,10 @@ while True:
             disc = (int(b)**2)-(4*int(a)*int(c))
     
             if disc >= 0:
-                roots = [(-int(b) + sqrt(disc))/(2*int(a)), (-int(b) - sqrt(disc))/(2*int(a))]
+                roots = [(-int(b) + math.sqrt(disc))/(2*int(a)), (-int(b) - math.sqrt(disc))/(2*int(a))]
                 return roots
             else:
                 return "empty"
-        
-        def compHCF(a, b):
-            if int(a) > int(b):
-                smaller = b
-            else:
-                smaller = a
-            for i in range(1, smaller+1):
-                if((int(a) % i == 0) and (int(b) % i == 0)):
-                    hcf = i 
-            return hcf
         
         roots = doMath(a,b,c)
         print(f"You entered {a}x^2 + {b}x + {c} = 0")
@@ -48,17 +37,11 @@ while True:
         if roots == 'empty':
             print("There are no real roots")
             
-        h = (int(b)/compHCF(a,b))/2
+        h = (int(b)/math.gcd(int(a),int(b)))/2
         k = int(c)-(h**2)
         
-        vertex = f("{compHCF(a,b)}  
-        
-        
+        vertex = (f"y = {math.gcd(int(a),int(b))}({int(a)/math.gcd(int(a),int(b))}x+{h})^2+{k}") 
+        print("Vertex Form: " + vertex)
             
         imp = input("Press Enter to run again, press x then Enter to quit: ")
         
-     
-        
-
-
-
