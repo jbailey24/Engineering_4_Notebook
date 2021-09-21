@@ -3,7 +3,7 @@
 ## Table of Contents
 * [Python_Dice_Roller](#PythonDiceRoller)
 * [Python_Calculator](#Python_Calculator)
-* [Python Quadratic Solver](#Quadratic Solver)
+* [Python Quadratic Solver](#Quadratic_Solver)
 ---
 
 ## Python_Dice_Roller
@@ -39,7 +39,7 @@ N/A
 
 This was a good memory jog on how to format functions and definitely reminded me to watch my strings vs integers.
 
-## Quadratic Solver
+## Quadratic_Solver
 
 ### Assignment Description
 The purpose of this assignment was to create a program that takes a user inputed quadratic equation and returns the equation, the real roots, and the equation in vertex form. If the equation doesn't have real roots, the program just returns the equation. 
