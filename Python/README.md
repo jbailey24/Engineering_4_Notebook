@@ -4,6 +4,7 @@
 * [Python_Dice_Roller](#PythonDiceRoller)
 * [Python_Calculator](#Python_Calculator)
 * [Python Quadratic Solver](#Quadratic_Solver)
+* [Python Strings and Loops](#Strings_and_Loops
 ---
 
 ## Python_Dice_Roller
@@ -53,4 +54,19 @@ N/A
 ### Reflection
 
 I was able to reuse a good bit of code from the previous assignments, but figuring out how to call the real roots or not outside of the function was tricky. Also I had mostly forgotten how to find the vertex form of a quadratic equation, so writing somewhat concise code for that took a few iterations. I initially found some code online for finding the highest common demominator, but after struggling for a while to get it to work, I discovered that there is a hcf function in the python math library (which, don't get me wrong, was nice, but why couldn't I have dicovered that earlier!).  
+
+## Strings_and_Loops
+
+### Assignment Description
+The purpose of this assignment was to create a program that splits an input into individual charaters using for loops. For example, "Hi There" would return "H,i,-,T,h,e,r,e,-". 
+### Evidence 
+![Screenshot of code](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/Screenshot%202021-09-21%20121400.png?raw=true)
+
+### Wiring
+N/A
+
+### Reflection
+
+I had no idea how versitile for loops were. I was trying to add in all this extra stuff into the for loops, and it turns out once I declare i, the computer's got it from there! 
+
 
