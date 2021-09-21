@@ -27,22 +27,29 @@ This assignment was relatively simple, but was definitely helpful because I have
 ## Python_Calculator
 
 ### Assignment Description
+The purpose of this assignment was to create a program that takes two user-inputed numbers and finds their sum, difference, product, quotient, modulo, and both their factorials.
+### Evidence 
+![Screenshot of code](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8255.jpg?raw=true)
 
-Your turn! You will be writing a section of readme like this for all subsequent assignments.
+### Wiring
+N/A
+
+### Reflection
+
+This was a good memory jog on how to format functions and definitely reminded me to watch my strings vs integers.
+
+## Quadratic Solver
+
+### Assignment Description
+The purpose of this assignment was to create a program that takes a user inputed quadratic equation and returns the equation, the real roots, and the equation in vertex form. If the equation doesn't have real roots, the program just returns the equation. 
 
 ### Evidence 
 ![Screenshot of code](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8255.jpg?raw=true)
 
 ### Wiring
-
+N/A
 
 ### Reflection
 
-
-
-
-
-Takes two user-inputed numbers and finds their sum, difference, product, quotient, modulo, and both their factorials.
-
-This was a good memory jog on how to format functions and definitely reminded me to watch my strings vs integers.
+I was able to reuse a good bit of code from the previous assignments, but figuring out how to call the real roots or not outside of the function was tricky. Also I had mostly forgotten how to find the vertex form of a quadratic equation, so writing somewhat concise code for that took a few iterations. I initially found some code online for finding the highest common demominator, but after struggling for a while to get it to work, I discovered that there is a hcf function in the python math library (which, don't get me wrong, was nice, but why couldn't I have dicovered that earlier!).  
 
