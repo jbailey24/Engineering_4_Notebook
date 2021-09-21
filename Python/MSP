@@ -1,0 +1,49 @@
+#MSP
+#Written by Julia Bailey
+#9/21/21
+import time
+from os import system, name
+
+
+def clear():
+    if name == 'nt':
+        _ = system('cls')
+    else:
+        _ = system('clear')
+        
+def msp(numincor):
+    print("---┐")
+    if numincor == 1:
+        print("   O ")
+    if numincor == 2:
+        print("   O ")
+        print("   |")
+    if numincor == 3:
+        print("   O ")
+        print("  \|")
+    if numincor == 4:
+        print("   O ")
+        print("  \|/")
+    if numincor == 5:
+        print("   O ")
+        print("  \|/")
+        print("   | ")
+    if numincor == 6:
+        print("   O ")
+        print("  \|/")
+        print("   | ")
+        print("  /")
+    if numincor == 7:
+        print("   O ")
+        print("  \|/")
+        print("   | ")
+        print("  / \ ")
+word = input("Player 1, enter your word: ")
+time.sleep(1)
+clear()
+
+numincor = int(input("num? "))
+msp(numincor)
+        
+        
+        
