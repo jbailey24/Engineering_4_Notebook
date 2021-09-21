@@ -31,18 +31,18 @@ while True:
         roots = doMath(a,b,c)                       #defines roots outside of the doMath function
         print(f"You entered {a}x^2 + {b}x + {c} = 0")   #prints function you entered (used f string)
         
-        if roots != 'empty':                           #if there are real roots (if roots is not empty), print the roots
-            print("Root #1  " + str(doMath(a,b,c)[0]))
-            print("Root #2  " + str(doMath(a,b,c)[1]))
-            
-        if roots == 'empty':                        #if there are no real roots (if roots is empty), don't print roots
-            print("There are no real roots")
-            
         h = (int(b)/math.gcd(int(a),int(b)))/2      #defines h as b/the highest common factor/2
         k = int(c)-(h**2)                           #defines k as c - h squared
         
         vertex = (f"y = {math.gcd(int(a),int(b))}({int(a)/math.gcd(int(a),int(b))}x+{h})^2+{k}") #this mess prints the vertex formula (hcf(ax-h)^2+k)
-        print("Vertex Form: " + vertex)
-            
-        imp = input("Press Enter to run again, press x then Enter to quit: ")       #lets you run the function again by pressing enter
         
+        if roots != 'empty':                           #if there are real roots (if roots is not empty), print the roots
+            print("Root #1  " + str(doMath(a,b,c)[0]))
+            print("Root #2  " + str(doMath(a,b,c)[1]))
+            print("Vertex Form: " + vertex)
+            
+        if roots == 'empty':                        #if there are no real roots (if roots is empty), don't print roots
+            print("There are no real roots")
+        
+       
+        imp = input("Press Enter to run again, press x then Enter to quit: ")       #lets you run the function again by pressing enter
