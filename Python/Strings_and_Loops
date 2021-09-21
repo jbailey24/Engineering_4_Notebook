@@ -1,0 +1,11 @@
+#Strings and Loops
+#Written by Julia Bailey
+#9/21/21
+
+imp = input("Type in your text, then press enter: ").split()       # 'split()' converts input into array of individual words
+
+for i in imp:               # outer for loop calls each individual word
+    i = i + ("-")           # adds '-' on the end of every word
+    for a in i:             # inner for loop calls each charater in word 'i'
+        print(a)
+    
