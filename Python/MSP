@@ -1,33 +1,41 @@
 #MSP
 #Written by Julia Bailey
 #9/21/21
+
 import time
-from os import system, name
 
+word = input("Player 1, enter your word: ")
+time.sleep(0.1)
+print("\n" * 50)
 
-def clear():
-    if name == 'nt':
-        _ = system('cls')
-    else:
-        _ = system('clear')
-        
+numincor = 0
+mislett = 0
+guess = 'l'
+guesslst = [guess]
+fb = [len(word)*("_ ",)]
+
 def msp(numincor):
     print("---┐")
     if numincor == 1:
         print("   O ")
+        print("\n" * 3)
     if numincor == 2:
         print("   O ")
         print("   |")
+        print("\n" * 2)
     if numincor == 3:
         print("   O ")
         print("  \|")
+        print("\n" * 2)
     if numincor == 4:
         print("   O ")
         print("  \|/")
+        print("\n" * 2)
     if numincor == 5:
         print("   O ")
         print("  \|/")
         print("   | ")
+        print("\n")
     if numincor == 6:
         print("   O ")
         print("  \|/")
@@ -38,12 +46,32 @@ def msp(numincor):
         print("  \|/")
         print("   | ")
         print("  / \ ")
-word = input("Player 1, enter your word: ")
-time.sleep(1)
-clear()
+    else:
+        print("\n" * 4)
 
-numincor = int(input("num? "))
-msp(numincor)
+def feedback(word, guess, guesslst, fb):
+    for i in word:
+        for j in guesslst:
+            if j == i:
+                fin = j
+            else:
+                fin = "_"
+        print(word.index(i))
+        fb.pop(word.index(i))
+        fb.insert(word.index(i), fin + " ")
+    return fb
+    
         
-        
-        
+
+
+
+while True:
+    
+    msp(numincor)
+    print("Missed Letters: " + str(mislett))
+    print(*(feedback(word, guess, guesslst,fb)))
+    print("Guess a letter:")
+    guess = input("")
+    guesslst.append(guess)
+    print(guesslst)
+
