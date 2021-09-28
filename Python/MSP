@@ -10,10 +10,9 @@ print("\n" * 50)
 
 numincor = 0
 mislett = 0
-guess = 'l'
-guesslst = [guess]
-fb = [len(word)*("_ ",)]
-
+guesslst = ["l"]
+#fb = [len(word)*("_ ",)]
+fb = ["_ ", "_ ", "_ ", "_ ", "_ "]
 def msp(numincor):
     print("---┐")
     if numincor == 1:
@@ -49,16 +48,16 @@ def msp(numincor):
     else:
         print("\n" * 4)
 
-def feedback(word, guess, guesslst, fb):
+def feedback(word, guesslst, fb):
     for i in word:
         for j in guesslst:
             if j == i:
-                fin = j
-            else:
-                fin = "_"
-        print(word.index(i))
-        fb.pop(word.index(i))
-        fb.insert(word.index(i), fin + " ")
+                fb.pop(word.index(i))
+                #fb[word.index(i)] = None
+                fb.insert(word.index(i), j + " ")
+            print(word.index(i))
+            print(fb)
+
     return fb
     
         
@@ -74,4 +73,3 @@ while True:
     guess = input("")
     guesslst.append(guess)
     print(guesslst)
-
