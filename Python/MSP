@@ -4,17 +4,22 @@
 
 import time
 
-word = input("Player 1, enter your word: ")
-time.sleep(0.1)
-print("\n" * 50)
+word = input("Player 1, enter your word: ")     # asks player 1 to define 'word'
+time.sleep(0.15)                                # waits very briefly before clearing the screen so player 1 has a chance to notice if they made a typo
+print("\n" * 50)                                # clears screen by printing 50 blank lines
 
-numincor = 0
-mislett = 0
-guesslst = ["l"]
-#fb = [len(word)*("_ ",)]
-fb = ["_ ", "_ ", "_ ", "_ ", "_ "]
-def msp(numincor):
-    print("---┐")
+fb = len(word)*("_")                            # creates list of underscores the length of the word
+numincor = 0                                    # number of incorrect guesses - also function as lives
+
+mislett = []                                    # creates empty array to store the incorrect guesses 
+
+guess = input("Player 2, enter your guess: ")   # asks player 2 to enter their initial guess
+
+
+def msp(numincor):                              # function to print the hangman graphic
+    print("---┐")                               # prints the top bar of the hangman for every guess
+    if numincor == 0:                           # prints different graphic based on the number of incorrect guesses
+        print("\n" * 4)
     if numincor == 1:
         print("   O ")
         print("\n" * 3)
@@ -45,31 +50,38 @@ def msp(numincor):
         print("  \|/")
         print("   | ")
         print("  / \ ")
-    else:
-        print("\n" * 4)
-
-def feedback(word, guesslst, fb):
-    for i in word:
-        for j in guesslst:
-            if j == i:
-                fb.pop(word.index(i))
-                #fb[word.index(i)] = None
-                fb.insert(word.index(i), j + " ")
-            print(word.index(i))
-            print(fb)
-
-    return fb
-    
-        
-
 
 
 while True:
     
+    guesscor = 0                                    # guesscor functions as a boolean to check whether a guess is in a word - IMPORTANT to be inside while loop so it gets reset to 0 every guess
+    for i in range(len(word)):                      # runs through loop for the length of the word                              
+            if guess == word[i]:                    # checks if the guess is in specific location word
+                fb = fb[:i] + guess + fb[i+1:]
+                guesscor = 1
+                
+    if guesscor != 1:  
+        mislett.append(guess)
+        numincor = numincor + 1
+                
     msp(numincor)
-    print("Missed Letters: " + str(mislett))
-    print(*(feedback(word, guess, guesslst,fb)))
+    
+    if numincor >= 7:
+        print("Your Man-Shaped Piñata has been completed")
+        print("What type of candy did you put in it?")
+        print("The word was '" + word + "'")
+        break
+    
+    if fb == word:
+        print("Congrats, you were unable to complete your Man-Shaped Piñata.")
+        print("Go tell everyone of your inferior piñata-making skills.")
+        print("")
+        print ("You had " + str(numincor) + " incorrect guesses.")
+        break
+    
+    print("Missed Letters: ")
+    print(*mislett)
+    print("")
+    print(*fb)
     print("Guess a letter:")
     guess = input("")
-    guesslst.append(guess)
-    print(guesslst)
