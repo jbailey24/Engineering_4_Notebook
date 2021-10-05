@@ -5,6 +5,7 @@
 * [Python_Calculator](#Python_Calculator)
 * [Python Quadratic Solver](#Quadratic_Solver)
 * [Python Strings and Loops](#Strings_and_Loops)
+* [Python Man-Shaped Piñata](#Man-Shaped Piñata)
 ---
 
 ## Python_Dice_Roller
@@ -68,5 +69,23 @@ N/A
 ### Reflection
 
 I had no idea how versitile for loops were. I was trying to add in all this extra stuff into the for loops, and it turns out once I declare i, the computer's got it from there! 
+
+
+## Man-Shaped Piñata
+
+### Assignment Description
+
+
+### Evidence 
+![Screenshot of code](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/Screenshot%202021-10-05%20115445.jpg?raw=true)
+![Screenshot of code](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/Screenshot%202021-10-05%20115624.jpg?raw=true)
+### Wiring
+N/A
+
+### Reflection
+
+
+
+
 
 
