@@ -5,7 +5,7 @@
 * [Python_Calculator](#Python_Calculator)
 * [Python Quadratic Solver](#Quadratic_Solver)
 * [Python Strings and Loops](#Strings_and_Loops)
-* [Python Man-Shaped Piñata](#Man-Shaped Piñata)
+* [Python Man-Shaped Piñata](#Man-Shaped_Piñata)
 ---
 
 ## Python_Dice_Roller
@@ -71,10 +71,11 @@ N/A
 I had no idea how versitile for loops were. I was trying to add in all this extra stuff into the for loops, and it turns out once I declare i, the computer's got it from there! 
 
 
-## Man-Shaped Piñata
+## Man-Shaped_Piñata
 
 ### Assignment Description
 
+The purpose of this assignment was to create a functioning hangman game (also known as a man-shaped piñata gmae). Player 1 enters in a word and player 2 is then prompted to guess letters in that word. If their guess is correct, the position of their guessed letter in the word is revealed. If their guess is incorrect, another peice of the piñata is built. If the piñata is fully built, player 2 looses the game. If player 2 can guess the entire word before the piñata is fully built, they win.
 
 ### Evidence 
 ![Screenshot of code](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/Screenshot%202021-10-05%20115445.jpg?raw=true)
@@ -83,6 +84,7 @@ I had no idea how versitile for loops were. I was trying to add in all this extr
 N/A
 
 ### Reflection
+This was a more challenging assignment. I was stuck for a long time in this assignment trying to replace the array of blanks with player 2's correct guess. I was attempting to get it to work with functions like 'pop()' and 'append()', but these functions just weren't able to do what I needed them to be able to. So, I learned the value of using my classmates as a resourse. Alden, who had already completed the assignment, used a different method to replace the array. I looked at his github and was able to adapt a few lines of his code to my logic (thank you Alden).  
 
 
 
