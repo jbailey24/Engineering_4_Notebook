@@ -57,31 +57,31 @@ while True:
     guesscor = 0                                    # guesscor functions as a boolean to check whether a guess is in a word - IMPORTANT to be inside while loop so it gets reset to 0 every guess
     for i in range(len(word)):                      # runs through loop for the length of the word                              
             if guess == word[i]:                    # checks if the guess is in specific location word
-                fb = fb[:i] + guess + fb[i+1:]
-                guesscor = 1
+                fb = fb[:i] + guess + fb[i+1:]      # adds guess to array 'fb' - brackets skip over characters not at spot 'i' in word
+                guesscor = 1                        # sets guesscor equal to 1, which prevents the guess from being added to incorrect guesses list
                 
-    if guesscor != 1:  
-        mislett.append(guess)
-        numincor = numincor + 1
+    if guesscor != 1:                               # checks if guess was not in word
+        mislett.append(guess)                       # adds to missed letters list
+        numincor = numincor + 1                     # increases number of incorrect letters
                 
-    msp(numincor)
+    msp(numincor)                                   # prints hangman graphic
     
-    if numincor >= 7:
-        print("Your Man-Shaped Piñata has been completed")
+    if numincor >= 7:                               # checks if player 2 has guessed 7 incorrect letters
+        print("Your Man-Shaped Piñata has been completed")  # prints ending message
         print("What type of candy did you put in it?")
         print("The word was '" + word + "'")
-        break
+        break                                       # stops game
     
-    if fb == word:
-        print("Congrats, you were unable to complete your Man-Shaped Piñata.")
+    if fb == word:                                  # checks if array of correct guesses equals the word
+        print("Congrats, you were unable to complete your Man-Shaped Piñata.")  # prints ending message
         print("Go tell everyone of your inferior piñata-making skills.")
         print("")
         print ("You had " + str(numincor) + " incorrect guesses.")
-        break
+        break                                       # stops game
     
-    print("Missed Letters: ")
+    print("Missed Letters: ")                       # prints the letters missed
     print(*mislett)
     print("")
-    print(*fb)
+    print(*fb)                                      # prints array of guesses and blanks - '*' prints each character of array separately, but on same line
     print("Guess a letter:")
-    guess = input("")
+    guess = input("")                               # asks player 2 for next guess
