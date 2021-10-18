@@ -1,6 +1,7 @@
 # Onshape Notebook
 
 ## Table of Contents
+* [CAD Swing Arm](#CAD_Swing_Arm)
 * [Skateboard](#Skateboard)
 
 ---
