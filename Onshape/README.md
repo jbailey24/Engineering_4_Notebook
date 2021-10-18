@@ -32,6 +32,8 @@ Creating this part from a drawing was fun! I enjoyed the puzzle aspect of it.
 
 ### Assignment Description 
 ### Evidence
+![Isometric](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Onshape/media/SkateboardIso.jpg)
+![Underside](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Onshape/media/Skateboardunder.jpg)
 ### Part Link
 [Swing Arm Part](https://cvilleschools.onshape.com/documents/183faca32d9b1453e1759a35/w/0bdd3badd5f24eb0cfd579c9/e/ae96ab5987203413b8621959?renderMode=0&uiState=616da2c73f4d65650e6c2d89)
 ### Reflection
