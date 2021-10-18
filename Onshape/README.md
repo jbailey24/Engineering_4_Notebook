@@ -32,9 +32,11 @@ Creating this part from a drawing was fun! I enjoyed the puzzle aspect of it.
 ## Skateboard
 
 ### Assignment Description 
+The goal of this assignment was to follow an Onshape skateboard tutorial.
 ### Evidence
 ![Isometric](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Onshape/media/SkateboardIso.jpg)
 ![Underside](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Onshape/media/Skateboardunder.jpg)
 ### Part Link
 [Swing Arm Part](https://cvilleschools.onshape.com/documents/183faca32d9b1453e1759a35/w/0bdd3badd5f24eb0cfd579c9/e/ae96ab5987203413b8621959?renderMode=0&uiState=616da2c73f4d65650e6c2d89)
 ### Reflection
+The tutorial was obviously made for someone who had never touched CAD before, and so it was a little frustratingly slow, but it did remind me of what all of the Onshape shortcuts are, which was helpful. I also had never used (or heard of) the Replicate tool before. I'm not sure exactly when I would use it in the future, but it sure saved a lot of time on this assignment!
