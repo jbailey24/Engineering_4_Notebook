@@ -39,7 +39,7 @@ N/A
 
 ### Reflection
 
-This was a good memory jog on how to format functions and definitely reminded me to watch my strings vs integers.
+This was a good memory jog on how to format functions and definitely reminded me to watch my strings vs integers. Listing all the equation types as if statements in the function felt a bit clunky, but it works well.  
 
 ## Quadratic_Solver
 
