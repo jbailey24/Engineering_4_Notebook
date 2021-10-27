@@ -39,7 +39,7 @@ N/A
 
 ### Reflection
 
-This was a good memory jog on how to format functions and definitely reminded me to watch my strings vs integers. Listing all the equation types as if statements in the function felt a bit clunky, but it works well.  
+This was a good memory jog on how to format functions and definitely reminded me to watch my strings vs integers. Listing all the equation types as if statements in the function felt a bit clunky, but it works well. I initially started to write the code to calculate factorials from scratch, but python is great and math.factorial() has already been written for me, so I just had to import math and let it do its magic. 
 
 ## Quadratic_Solver
 
