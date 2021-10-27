@@ -13,7 +13,7 @@ def solution(l):
         
     for j in sorted(output):         # this for loop turns sorted list back into form needed to submit
         for k in j:
-            string = string + str(k) +    
+            string = string + str(k) + "."
         fin_output.append(string[:-1])
         string = ""
         
