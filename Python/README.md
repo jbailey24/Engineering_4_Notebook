@@ -68,7 +68,7 @@ N/A
 
 ### Reflection
 
-I had no idea how versitile for loops were. I was trying to add in all this extra stuff into the for loops, and it turns out once I declare i, the computer's got it from there! 
+I had no idea how versitile for loops were. I was trying to add in all this extra stuff into the for loops, and it turns out once I declare i, the computer's got it from there! Also the split() seems like a useful tool to have for future projects.  
 
 
 ## Man-Shaped_Piñata
