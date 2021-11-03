@@ -49,7 +49,10 @@ The tutorial was obviously made for someone who had never touched CAD before, an
 ### Assignment Description 
 
 ### Evidence
-
-
+![Brick](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Onshape/media/bricklego.jpg?raw=true)
+![Plate](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Onshape/media/platelego.jpg?raw=true)
+![Tile](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Onshape/media/tilelego.jpg?raw=true)
+![Slanted](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Onshape/media/slantlego.jpg?raw=true)
+![Watermelon](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Onshape/media/watermelonlego.jpg?raw=true)
 
 ### Reflection
