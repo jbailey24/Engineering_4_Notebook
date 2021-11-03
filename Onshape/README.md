@@ -55,4 +55,6 @@ The tutorial was obviously made for someone who had never touched CAD before, an
 ![Slanted](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Onshape/media/slantlego.jpg?raw=true)
 ![Watermelon](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Onshape/media/watermelonlego.jpg?raw=true)
 
+### Part Link
+[Link to Document](https://cvilleschools.onshape.com/documents/f08a7fe11c7f803cc81ea1ed/w/441202257132b970b65bcf70/e/46ac3d9da2203a817154e6cd?configuration=List_9F9PRt82SmeKFt%3DDefault%3BList_9GmRN0LHkYbQnC%3DDefault%3BList_Ggfk3Nm8MmeCcn%3DDefault&renderMode=0&uiState=6182bc06d8521b30013c967f)
 ### Reflection
