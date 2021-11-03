@@ -47,6 +47,7 @@ The tutorial was obviously made for someone who had never touched CAD before, an
 ## Lego_Brick
 
 ### Assignment Description 
+The bulk of this assignment was just following another Onshape tutorial. In part 1, I built a 2 by 4 lego brick; in part 2, I learned how to configure the brick to be different sizes, shapes, and colors; in part 3, I created an assembly of a lego duck; and in part 4 I created a drawing of the duck assembly. After I completed the base assignment, I figured out how to create slanted (bevelled) lego bricks and added many more colors. I then used the new pieces and colors to help create a lego watermelon slice. 
 
 ### Evidence
 ![Brick](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Onshape/media/bricklego.jpg?raw=true)
@@ -58,3 +59,5 @@ The tutorial was obviously made for someone who had never touched CAD before, an
 ### Part Link
 [Link to Document](https://cvilleschools.onshape.com/documents/f08a7fe11c7f803cc81ea1ed/w/441202257132b970b65bcf70/e/46ac3d9da2203a817154e6cd?configuration=List_9F9PRt82SmeKFt%3DDefault%3BList_9GmRN0LHkYbQnC%3DDefault%3BList_Ggfk3Nm8MmeCcn%3DDefault&renderMode=0&uiState=6182bc06d8521b30013c967f)
 ### Reflection
+The main part of this assignment went very smoothly. Mostly, I learned about how to format drawings with exploded views and bills of materials. I  ran into a slight hiccup when I had interferences between the bricks in the duck assembly, but it turns out I just misread a dimention, and it was an easy fix. The hard part came in when I tried to make the slanted bricks. It's a bit messy, but to keep the shell but cut off the tubes for the slanted bricks, I have to have the same remove extrude at two points in the part. I also had some problems figuring out what angle to have the slant at. I tried and tried to solve it mathmatically, but I must have kept on making a mistake somewhere because my dimentions always had interferences. In the end, I just found a dimention that worked through trial and error (2.3mm!). Also, because you can't linear pattern the studs 0 times, I couldn't find a way to get the 1 by 1 slant brick to work, so I had to create a new part just for 1 by 1 and 2 by 1 slanted bricks that didn't include studs at all. Finding the offical lego colors was also a bit of pain. I couldn't find the exact values online, so I had to find a photo of the colors instead and put it into a drawing program to get the rgb values. Once I had all of that sorted out, it wasn't too difficult to build the watermelon off of a photo I found online and then create a drawing of it.
+
