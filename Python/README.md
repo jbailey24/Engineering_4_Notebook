@@ -93,11 +93,11 @@ This was a more challenging assignment. I was stuck for a long time in this assi
 ### Assignment Description
 
 ### Evidence 
-![Screenshot of code](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/Screenshot%202021-10-05%20115445.jpg?raw=true)
-![Screenshot of code](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/Screenshot%202021-10-05%20115624.jpg?raw=true)
+![Screenshot of LED blinking](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8669.jpg?raw=true)
+
 ### Wiring
-
-
+![Screenshot of wiring](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8665.jpg?raw=true)
+![Screenshot of wiring](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8666.jpg?raw=true)
 ### Reflection
 
 
