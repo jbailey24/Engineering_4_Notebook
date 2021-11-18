@@ -92,6 +92,8 @@ This was a more challenging assignment. I was stuck for a long time in this assi
 
 ### Assignment Description
 
+The purpose of this assignment was to create blinking LEDs using a Raspberry Pi and a T Cobbler. When one led turns on, the other turns off and vice versa.
+
 ### Evidence 
 ![Screenshot of LED blinking](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8669.jpg?raw=true)
 
@@ -99,5 +101,6 @@ This was a more challenging assignment. I was stuck for a long time in this assi
 ![Screenshot of wiring](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8665.jpg?raw=true)
 ![Screenshot of wiring](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8666.jpg?raw=true)
 ### Reflection
+Using BeagleTerm and a Raspberry Pi is a bit strange, but REMEMBER TO SHUTDOWN THE PI BEFORE CHANGING WIRING. It's very easy to forget. Googling is really your friend on these simple assignments. Looked up the GPIO library and had a solution in seconds. 
 
 
