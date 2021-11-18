@@ -1,3 +1,7 @@
+# Blinking LED Assignment
+# Written by Julia Bailey
+# 11/18/21
+
 import RPi.GPIO as GPIO
 from time import sleep
 from gpiozero import LED  #library which lets me define LEDs by using LED command (see lines 6 and 7)
