@@ -6,6 +6,7 @@
 * [Python Quadratic Solver](#Quadratic_Solver)
 * [Python Strings and Loops](#Strings_and_Loops)
 * [Python Man-Shaped Piñata](#Man-Shaped_Piñata)
+* [Pi Blinking LEDs](#Blinking_LEDs)
 ---
 
 ## Python_Dice_Roller
@@ -87,7 +88,16 @@ N/A
 This was a more challenging assignment. I was stuck for a long time in this assignment trying to replace the array of blanks with player 2's correct guess. I was attempting to get it to work with functions like 'pop()' and 'append()', but these functions just weren't able to do what I needed them to be able to. So, I learned the value of using my classmates as a resourse. Alden, who had already completed the assignment, used a different method to replace the array. I looked at his github and was able to adapt a few lines of his code to my logic (thank you Alden).  
 
 
+## Blinking_LEDs
+
+### Assignment Description
+
+### Evidence 
+![Screenshot of code](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/Screenshot%202021-10-05%20115445.jpg?raw=true)
+![Screenshot of code](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/Screenshot%202021-10-05%20115624.jpg?raw=true)
+### Wiring
 
 
+### Reflection
 
 
