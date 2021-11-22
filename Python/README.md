@@ -7,7 +7,7 @@
 * [Python Strings and Loops](#Strings_and_Loops)
 * [Python Man-Shaped Piñata](#Man-Shaped_Piñata)
 * [Pi Blinking LEDs](#Blinking_LEDs)
----
+* [Pi Shutdown Button](#Safe_restart_shutdown_interrupt)
 
 ## Python_Dice_Roller
 
@@ -103,4 +103,19 @@ The purpose of this assignment was to create blinking LEDs using a Raspberry Pi 
 ### Reflection
 Using BeagleTerm and a Raspberry Pi is a bit strange, but REMEMBER TO SHUTDOWN THE PI BEFORE CHANGING WIRING. It's very easy to forget. Googling is really your friend on these simple assignments. Looked up the GPIO library and had a solution in seconds. 
 
+
+## Safe_restart_shutdown_interrupt
+
+### Assignment Description
+
+The purpose of this assignment was to create a button that can be pressed briefly to reboot the Raspberry Pi and held down to shut it down. It should be very useful as Pis need to be shutdown everytime they are removed from a computer. I followed and used the code from [this](
+https://learn.sparkfun.com/tutorials/raspberry-pi-safe-reboot-and-shutdown-button/all) tutorial.
+
+### Evidence 
+![Screenshot of LED blinking](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8669.jpg?raw=true)
+
+### Wiring
+![Screenshot of wiring](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8665.jpg?raw=true)
+![Screenshot of wiring](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8666.jpg?raw=true)
+### Reflection
 
