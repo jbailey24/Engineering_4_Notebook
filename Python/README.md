@@ -112,10 +112,10 @@ The purpose of this assignment was to create a button that can be pressed briefl
 https://learn.sparkfun.com/tutorials/raspberry-pi-safe-reboot-and-shutdown-button/all) tutorial.
 
 ### Evidence 
-![Screenshot of LED blinking](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8669.jpg?raw=true)
+![GIF of button working](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8712.GIF?raw=true)
 
 ### Wiring
-![Screenshot of wiring](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8665.jpg?raw=true)
-![Screenshot of wiring](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8666.jpg?raw=true)
+![Screenshot of wiring](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8710.jpg?raw=true)
+
 ### Reflection
 
