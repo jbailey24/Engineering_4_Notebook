@@ -118,4 +118,4 @@ https://learn.sparkfun.com/tutorials/raspberry-pi-safe-reboot-and-shutdown-butto
 ![Screenshot of wiring](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8710.jpg?raw=true)
 
 ### Reflection
-
+Even though I was following a tutorial, the button still didn't work the first time I tested it. Especially because of the layout of linux, it can be easy to make several small typos or mistakes that prevent your code from working. It takes a lot of meticulous rereading and double checking to find why your code might not be working. 
