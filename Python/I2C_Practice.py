@@ -39,9 +39,7 @@ font = ImageFont.load_default()
 draw.text((x, top), 'ACCEL DATA:', font=font, fill=255)
 
 while True:
-  
-  disp.clear()
-  disp.display()
+
   
   accel, mag = lsm303.read()
   accel_x, accel_y, accel_z = accel
@@ -55,4 +53,7 @@ while True:
   disp.display()
   
   time.sleep(1)
- 
+  
+  draw.text((x, top+12),    'X:     ',  font=font, fill=255)
+  draw.text((x, top+24), 'Y:     ', font=font, fill=255)
+  draw.text((x, top+36), 'Z:     ', font=font, fill=255)
