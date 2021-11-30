@@ -44,9 +44,9 @@ while True:
   accel_x, accel_y, accel_z = accel
   mag_x, mag_y, mag_z = mag
 
-  draw.text((x, top+12),    'X: '+ str(mag_x),  font=font, fill=255)
-  draw.text((x, top+24), 'Y: '+ str(mag_y), font=font, fill=255)
-  draw.text((x, top+36), 'Z: '+ str(mag_z), font=font, fill=255)
+  draw.text((x, top+12),    'X: '+ str(accel_x),  font=font, fill=255)
+  draw.text((x, top+24), 'Y: '+ str(accel_y), font=font, fill=255)
+  draw.text((x, top+36), 'Z: '+ str(accel_z), font=font, fill=255)
 
   disp.image(image)
   disp.display()
@@ -54,5 +54,9 @@ while True:
   time.sleep(1)
   
   disp.clear()
+  
+  width = disp.width
+  height = disp.height
+  image = Image.new('1', (width, height))
 
 
