@@ -40,6 +40,9 @@ draw.text((x, top), 'ACCEL DATA:', font=font, fill=255)
 
 while True:
   
+  disp.clear()
+  disp.display()
+  
   accel, mag = lsm303.read()
   accel_x, accel_y, accel_z = accel
   mag_x, mag_y, mag_z = mag
@@ -50,6 +53,6 @@ while True:
 
   disp.image(image)
   disp.display()
-
+  
   time.sleep(1)
  
