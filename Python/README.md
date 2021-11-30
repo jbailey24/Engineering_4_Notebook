@@ -8,6 +8,7 @@
 * [Python Man-Shaped Piñata](#Man-Shaped_Piñata)
 * [Pi Blinking LEDs](#Blinking_LEDs)
 * [Pi Shutdown Button](#Safe_restart_shutdown_interrupt)
+* [Pi I2C](#I2C)
 
 ## Python_Dice_Roller
 
@@ -119,3 +120,16 @@ https://learn.sparkfun.com/tutorials/raspberry-pi-safe-reboot-and-shutdown-butto
 
 ### Reflection
 Even though I was following a tutorial, the button still didn't work the first time I tested it. Especially because of the layout of linux, it can be easy to make several small typos or mistakes that prevent your code from working. It takes a lot of meticulous rereading and double checking to find why your code might not be working. 
+
+## I2C
+### Assignment Description
+
+
+### Evidence 
+![GIF of data being displayed](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8783.GIF?raw=true)
+
+### Wiring
+![picture of wiring](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_1575.jpg?raw=true)
+
+### Reflection
+
