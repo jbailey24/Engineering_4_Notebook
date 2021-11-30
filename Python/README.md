@@ -123,7 +123,7 @@ Even though I was following a tutorial, the button still didn't work the first t
 
 ## I2C
 ### Assignment Description
-
+The purpose of this assignment was to learn how to use I2C communication. 
 
 ### Evidence 
 ![GIF of data being displayed](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8783.GIF?raw=true)
