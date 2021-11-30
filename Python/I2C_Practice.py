@@ -44,9 +44,9 @@ while True:
   accel_x, accel_y, accel_z = accel
 
   draw.text((x, top), 'ACCEL DATA:', font=font, fill=255)
-  draw.text((x, top+12),    'X: '+ str(accel_x/105),  font=font, fill=255)
-  draw.text((x, top+24), 'Y: '+ str(accel_y/105), font=font, fill=255)
-  draw.text((x, top+36), 'Z: '+ str(accel_z/105), font=font, fill=255)
+  draw.text((x, top+12),    'X: '+ str(round(accel_x/105, 2)),  font=font, fill=255)
+  draw.text((x, top+24), 'Y: '+ str(round(accel_y/105, 2)), font=font, fill=255)
+  draw.text((x, top+36), 'Z: '+ str(round(accel_z/105, 2)), font=font, fill=255)
 
   disp.image(image)
   disp.display()
