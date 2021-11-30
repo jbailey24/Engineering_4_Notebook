@@ -43,7 +43,7 @@ while True:
   
   accel, mag = lsm303.read()
   accel_x, accel_y, accel_z = accel
-  mag_x, mag_y, mag_z = mag
+
 
   draw.text((x, top+12),    'X: '+ str(accel_x),  font=font, fill=255)
   draw.text((x, top+24), 'Y: '+ str(accel_y), font=font, fill=255)
@@ -54,6 +54,5 @@ while True:
   
   time.sleep(1)
   
-  draw.text((x, top+12),    'X:     ',  font=font, fill=255)
-  draw.text((x, top+24), 'Y:     ', font=font, fill=255)
-  draw.text((x, top+36), 'Z:     ', font=font, fill=255)
+  draw.rectangle((0,0,width,height), outline=0, fill=0)
+
