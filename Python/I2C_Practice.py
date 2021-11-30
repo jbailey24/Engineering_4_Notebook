@@ -52,11 +52,4 @@ while True:
   disp.display()
 
   time.sleep(1)
-  
-  disp.clear()
-  
-  width = disp.width
-  height = disp.height
-  image = Image.new('1', (width, height))
-
-
+ 
