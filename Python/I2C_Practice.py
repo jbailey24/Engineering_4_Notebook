@@ -54,5 +54,6 @@ while True:
   time.sleep(1)
   
   disp.clear()
+  disp.display()
   
 
