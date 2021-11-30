@@ -22,7 +22,12 @@ width = disp.width
 height = disp.height
 image = Image.new('1', (width, height))
 
+
 draw = ImageDraw.Draw(image)
+
+padding = 2
+top = padding
+x = padding
 
 font = ImageFont.load_default()
 
