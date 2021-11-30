@@ -39,10 +39,12 @@ font = ImageFont.load_default()
 
 while True:
 
-  
+  #reads accel values
   accel, mag = lsm303.read()
   accel_x, accel_y, accel_z = accel
 
+  #prints and scales
+  #105 was chosen because it scales z value to approximately 9.8 when flat and at rest
   draw.text((x, top), 'ACCEL DATA:', font=font, fill=255)
   draw.text((x, top+12),    'X: '+ str(round(accel_x/105, 2)),  font=font, fill=255)
   draw.text((x, top+24), 'Y: '+ str(round(accel_y/105, 2)), font=font, fill=255)
@@ -53,5 +55,6 @@ while True:
   
   time.sleep(1)
   
+  #clears screen
   draw.rectangle((0,0,width,height), outline=0, fill=0)
 
