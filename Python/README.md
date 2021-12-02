@@ -123,7 +123,8 @@ Even though I was following a tutorial, the button still didn't work the first t
 
 ## I2C
 ### Assignment Description
-The purpose of this assignment was to learn how to use I2C communication. 
+
+The purpose of this assignment was to print accelerometer values on an OLED display using a Raspberry Pi and to learn the basics of I2C communication. 
 
 ### Evidence 
 ![GIF of data being displayed](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8783.GIF?raw=true)
@@ -133,3 +134,4 @@ The purpose of this assignment was to learn how to use I2C communication.
 
 ### Reflection
 
+The Raspberry Pi still struggles with occasionally timing out or not connecting to the internet. I had to reboot it many times. The example codes in the libraries of the accelerometer and display were very useful in figuring out how to get them working. Writing the code was as simple as stitching two of the example codes together. I also found it was much easier to write the code in Github and then 'git pull origin main' over in BeagleTerm than attempting to write the code directly in the terminal.
