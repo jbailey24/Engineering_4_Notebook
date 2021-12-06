@@ -41,8 +41,8 @@ while True:
   accel, mag = lsm303.read()
   accel_x, accel_y, accel_z = accel
   
-  shape_width = 5+(accel_y)*6
-  shape_height = 5+(accel_x)*6
+  shape_width = round(10+(int(abs(accel_y/105)))*7)
+  shape_height =round(10+(int(abs(accel_x/105)))*7)
   top = (height/2)-(shape_height/2)
   bottom = (height/2)+(shape_height/2)
   left = (width/2)-(shape_width/2)
@@ -54,7 +54,7 @@ while True:
   disp.image(image)
   disp.display()
   
-  time.sleep(1)
+  time.sleep(0.05)
   
   #clears screen
   draw.rectangle((0,0,width,height), outline=0, fill=0)
