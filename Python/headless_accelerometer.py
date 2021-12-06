@@ -41,15 +41,15 @@ while True:
   accel, mag = lsm303.read()
   accel_x, accel_y, accel_z = accel
   
-  padding = 2
-  shape_width = 5+(accel_y)*12
-  shape_height = 5+(accel_x)*5.8
-  top = (padding+(width/2))-(shape_width/2)
-  bottom = (height/2)-padding+(shape_height/2)
-  x = padding
+  shape_width = 5+(accel_y)*6
+  shape_height = 5+(accel_x)*6
+  top = (height/2)-(shape_height/2)
+  bottom = (height/2)+(shape_height/2)
+  left = (width/2)-(shape_width/2)
+  right = (width/2)+(shape_width/2)
+
   
-  draw.ellipse((x, top, x+shape_width, bottom), outline=255, fill=0)
-  x += shape_width+padding
+  draw.ellipse((left, top, right, bottom), outline=255, fill=0)
   
   disp.image(image)
   disp.display()
