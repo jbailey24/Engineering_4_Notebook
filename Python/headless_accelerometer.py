@@ -41,8 +41,8 @@ while True:
   accel, mag = lsm303.read()
   accel_x, accel_y, accel_z = accel
   
-  shape_width = 5+(accel_y)*6
-  shape_height = 5+(accel_x)*6
+  shape_width = 5+(int(accel_y))*6
+  shape_height = 5+(int(accel_x))*6
   top = (height/2)-(shape_height/2)
   bottom = (height/2)+(shape_height/2)
   left = (width/2)-(shape_width/2)
