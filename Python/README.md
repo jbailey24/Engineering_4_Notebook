@@ -9,6 +9,7 @@
 * [Pi Blinking LEDs](#Blinking_LEDs)
 * [Pi Shutdown Button](#Safe_restart_shutdown_interrupt)
 * [Pi I2C](#I2C)
+* [Pi Headless Accelerometer](#Headless_Accelerometer)
 
 ## Python_Dice_Roller
 
@@ -135,3 +136,18 @@ The purpose of this assignment was to print accelerometer values on an OLED disp
 ### Reflection
 
 The Raspberry Pi still struggles with occasionally timing out or not connecting to the internet. I had to reboot it many times. The example codes in the libraries of the accelerometer and display were very useful in figuring out how to get them working. Writing the code was as simple as stitching two of the example codes together. I also found it was much easier to write the code in Github and then 'git pull origin main' over in BeagleTerm than attempting to write the code directly in the terminal.
+
+
+## Headless_Accelerometer
+### Assignment Description
+
+
+
+### Evidence 
+![GIF of data being displayed]
+
+### Wiring
+![picture of wiring](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_1575.jpg?raw=true)
+
+### Reflection
+
