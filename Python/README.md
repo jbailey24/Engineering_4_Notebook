@@ -140,14 +140,14 @@ The Raspberry Pi still struggles with occasionally timing out or not connecting 
 
 ## Headless_Accelerometer
 ### Assignment Description
-
-
+The goal of this assignment was to use what we learned about the accelerometer and display in the last assignment to create a simple visual that changes in some way depending on the data collected by the accelerometer. I decided to have an ellipse that changes width or height based on the x or y direction acceleration. Additionally, the code had to run on startup of the Pi.
 
 ### Evidence 
-![GIF of data being displayed]
+![GIF of data being displayed](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8811.GIF%20(1).gif?raw=true)
 
 ### Wiring
 ![picture of wiring](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_1575.jpg?raw=true)
 
 ### Reflection
+I used the code from shapes.py to figure out how to draw ellipses on the display. It took a couple of tries to scale the data correctly and keep the ellipse centered. Getting it to run on startup wasn't too difficult, although I mistyped one line, which caused me to have to spend 5 minutes trying to fix it. 
 
