@@ -143,7 +143,7 @@ The Raspberry Pi still struggles with occasionally timing out or not connecting 
 The goal of this assignment was to use what we learned about the accelerometer and display in the last assignment to create a simple visual that changes in some way depending on the data collected by the accelerometer. I decided to have an ellipse that changes width or height based on the x or y direction acceleration. Additionally, the code had to run on startup of the Pi.
 
 ### Evidence 
-![GIF of data being displayed](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8811.GIF%20(1).gif?raw=true)
+![GIF of data being displayed](https://user-images.githubusercontent.com/56133021/145443923-5fa63a96-4e7e-4f54-b363-b20662eff659.gif)
 
 ### Wiring
 ![picture of wiring](https://user-images.githubusercontent.com/56133021/145439649-ced70adf-44d6-4267-b332-1666db4fbee3.jpg)
