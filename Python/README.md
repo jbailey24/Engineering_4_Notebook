@@ -128,7 +128,7 @@ Even though I was following a tutorial, the button still didn't work the first t
 The purpose of this assignment was to print accelerometer values on an OLED display using a Raspberry Pi and to learn the basics of I2C communication. 
 
 ### Evidence 
-![GIF of data being displayed](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8783.GIF?raw=true)
+![GIF of data being displayed](https://user-images.githubusercontent.com/56133021/145442297-0760cb4b-4f19-49a8-aa40-97851a91f223.gif)
 
 ### Wiring
 ![picture of wiring](https://user-images.githubusercontent.com/56133021/145439649-ced70adf-44d6-4267-b332-1666db4fbee3.jpg)
