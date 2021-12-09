@@ -17,11 +17,11 @@ This assignment asked me to replicate a swing arm part from a set of drawings. T
 
 Configuration #1
 
-![Screenshot 2021-10-13 10 10 05 PM](https://user-images.githubusercontent.com/89222808/137238893-1fb00671-a56e-4945-a0b9-d2524f2dbd67.png)
+![Screenshot 2021-10-13 10 10 05 PM](https://user-images.githubusercontent.com/56133021/145441233-e9aa4dcb-59a0-4573-8916-5504523f2c5f.png)
 
 Configuration #2
 
-![Screenshot 2021-10-13 10 09 47 PM](https://user-images.githubusercontent.com/89222808/137238944-1d552151-7784-423e-88ad-8f4976325d97.png)
+![Screenshot 2021-10-13 10 09 47 PM](https://user-images.githubusercontent.com/56133021/145441232-8bd5a932-3f0f-4fea-b40b-3be72ba19057.png)
 
 ### Part Link
 [Swing Arm Part](https://cvilleschools.onshape.com/documents/a2e1de8649f0a4bf210113c6/w/b7a1966e53e01d11a44c4147/e/003adf8186a4c75a14071a3c?configuration=List_LwLrctkimvoh8i%3DDefault&renderMode=0&uiState=616da23d182faa28db148ae4)
