@@ -101,7 +101,7 @@ The purpose of this assignment was to create blinking LEDs using a Raspberry Pi 
 
 ### Wiring
 ![Screenshot of wiring](https://user-images.githubusercontent.com/56133021/145438757-f97f84fe-76b8-4fd7-8006-d253a41add88.jpg)
-![Screenshot of wiring](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/media/IMG_8666.jpg?raw=true)
+![Screenshot of wiring](https://user-images.githubusercontent.com/56133021/145440749-da90380f-76e6-4889-b6d5-a6063ebe1ef3.jpg)
 ### Reflection
 Using BeagleTerm and a Raspberry Pi is a bit strange, but REMEMBER TO SHUTDOWN THE PI BEFORE CHANGING WIRING. It's very easy to forget. Googling is really your friend on these simple assignments. Looked up the GPIO library and had a solution in seconds. 
 
