@@ -159,9 +159,10 @@ The purpose of this assignment was to create two programs. One that counts down 
 
 ### Evidence 
 ![photo taken by Pi](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/pics/camera_code_1.jpg?raw=true)
+![photo taken by Pi](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/pics/camera_code_2_sketch.jpg?raw=true)
 
 ### Wiring
 N/A
 
 ### Reflection
-Getting the camera to work was a pain. My Pi doesn't have the little black piece of plastic that keeps the camera connecter in, and so I kept on getting errors saying the camera wasn't connected. To get it to work, I had to use a Raspberry Pi Zero instead, which meant moving the camera and the SD card over, taking the photos, putting the SD card into my Chromebook, and then dragging the photos over to github, which is definitely not ideal. The code was easy, the [links](https://picamera.readthedocs.io/en/release-1.10/recipes1.html)  were very helpful. 
+Getting the camera to work was a pain. My Pi doesn't have the little black piece of plastic that keeps the camera connecter in, and so I kept on getting errors saying the camera wasn't connected. To get it to work, I had to use a Raspberry Pi Zero instead, which meant moving the camera and the SD card over, taking the photos, putting the SD card into my Chromebook, and then dragging the photos over to github, which is definitely not ideal. The code was easy - the [links](https://picamera.readthedocs.io/en/release-1.10/recipes1.html)  were very helpful. 
