@@ -11,7 +11,7 @@ with picamera.PiCamera() as camera:
     print('2')
     time.sleep(1)
     print('Say Cheese')
-    camera.capture('camera_code_1.jpg')
+    camera.capture('/home/pi/Documents/Engineering_4_Notebook/Python/pics/camera_code_1.jpg')
     time.sleep(.5)
     print('Done')
     
