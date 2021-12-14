@@ -10,6 +10,7 @@
 * [Pi Shutdown Button](#Safe_restart_shutdown_interrupt)
 * [Pi I2C](#I2C)
 * [Pi Headless Accelerometer](#Headless_Accelerometer)
+* [Pi Camera](#Pi_Camera)
 
 ## Python_Dice_Roller
 
@@ -151,3 +152,16 @@ The goal of this assignment was to use what we learned about the accelerometer a
 ### Reflection
 I used the code from shapes.py to figure out how to draw ellipses on the display. It took a couple of tries to scale the data correctly and keep the ellipse centered. Getting it to run on startup wasn't too difficult, although I mistyped one line, which caused me to have to spend 5 minutes trying to fix it. 
 
+
+## Pi_Camera
+### Assignment Description
+The purpose of this assignment was to create two programs. One that counts down and then takes a photo and one that takes 5 photos with different filters.
+
+### Evidence 
+![photo taken by Pi](https://github.com/jbailey24/Engineering_4_Notebook/blob/main/Python/pics/camera_code_1.jpg?raw=true)
+
+### Wiring
+N/A
+
+### Reflection
+Getting the camera to work was a pain. My Pi doesn't have the little black piece of plastic that keeps the camera connecter in, and so I kept on getting errors saying the camera wasn't connected. To get it to work, I had to use a Raspberry Pi Zero instead, which meant moving the camera and the SD card over, taking the photos, putting the SD card into my Chromebook, and then dragging the photos over to github, which is definitely not ideal. The code was easy, the [links](https://picamera.readthedocs.io/en/release-1.10/recipes1.html)  were very helpful. 
